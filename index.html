@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Name Brother | Premium Domain Investment & Digital Asset Strategy</title>
+    <meta name="description" content="Name Brother specializes in the acquisition and management of high-value digital assets. We focus on category-defining domain names that provide strategic brand authority and long-term equity in the global digital economy.">
+    <meta name="keywords" content="Name Brother, Domain Investment, Digital Assets, Premium Domains, Digital Real Estate, Brand Acquisition, Domain Portfolio, Fintech Domains, AI Domains">
+    <meta name="author" content="Name Brother">
+    
+    <meta property="og:title" content="Name Brother | Premium Digital Asset Investment">
+    <meta property="og:description" content="Defining the future of digital identity through strategic domain acquisition.">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Name Brother">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary: #6366f1; 
+            --dark-deep: #020617;
+            --dark-surface: #0f172a;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --accent: #38bdf8;
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: #ffffff;
+            color: #1e293b;
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 0 24px;
+        }
+
+        /* Modern Sticky Header */
+        header {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(12px);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 1px solid rgba(0,0,0,0.05);
+            padding: 18px 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-weight: 800;
+            font-size: 22px;
+            letter-spacing: -1px;
+            color: var(--dark-deep);
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 40px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #475569;
+            font-size: 14px;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        nav a:hover { color: var(--primary); }
+
+        /* Hero Section - High Tech Feel */
+        .hero {
+            background: radial-gradient(circle at 50% 50%, #1e293b 0%, #020617 100%);
+            color: white;
+            padding: 240px 0 160px;
+            text-align: center;
+            position: relative;
+        }
+
+        .hero h1 {
+            font-size: clamp(40px, 7vw, 76px);
+            font-weight: 800;
+            margin-bottom: 24px;
+            line-height: 1.1;
+            letter-spacing: -3px;
+            background: linear-gradient(to bottom, #ffffff, #94a3b8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero p {
+            font-size: 22px;
+            max-width: 800px;
+            margin: auto;
+            color: #94a3b8;
+            font-weight: 300;
+        }
+
+        /* Content Sections */
+        section { padding: 120px 0; }
+        .section-dark { background: var(--dark-surface); color: white; }
+
+        h2 {
+            font-size: 42px;
+            font-weight: 800;
+            margin-bottom: 40px;
+            text-align: center;
+            letter-spacing: -1px;
+        }
+
+        .intro-text {
+            max-width: 850px;
+            margin: auto;
+            font-size: 20px;
+            color: #64748b;
+            text-align: center;
+            margin-bottom: 80px;
+        }
+
+        /* Asset Grid */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background: #ffffff;
+            border-radius: 24px;
+            padding: 60px 40px;
+            transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+            border: 1px solid rgba(0,0,0,0.05);
+        }
+
+        .card:hover {
+            transform: translateY(-12px);
+            box-shadow: 0 40px 70px -15px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: var(--dark-deep);
+        }
+
+        .card p {
+            color: #64748b;
+            font-size: 16px;
+        }
+
+        /* Call to Action Box */
+        .cta-container {
+            background: var(--primary);
+            background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
+            border-radius: 40px;
+            padding: 100px 40px;
+            color: white;
+            text-align: center;
+            margin-bottom: 100px;
+        }
+
+        .cta-container h2 { margin-bottom: 20px; }
+        .cta-container p { font-size: 20px; opacity: 0.9; margin-bottom: 40px; }
+
+        .contact-link {
+            font-size: 28px;
+            font-weight: 700;
+            color: white;
+            text-decoration: none;
+            border-bottom: 2px solid rgba(255,255,255,0.3);
+            transition: 0.3s;
+        }
+
+        .contact-link:hover { border-bottom-color: white; }
+
+        footer {
+            padding: 80px 0;
+            text-align: center;
+            color: #94a3b8;
+            font-size: 14px;
+            background: #f8fafc;
+        }
+
+        /* Mobile Optimization */
+        @media(max-width: 768px){
+            nav ul { display: none; }
+            .hero { padding: 180px 0 100px; }
+            h2 { font-size: 32px; }
+            .card { padding: 40px 30px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <nav>
+            <a href="/" class="logo">Name Brother</a>
+            <ul>
+                <li><a href="#assets">Digital Assets</a></li>
+                <li><a href="#strategy">Strategy</a></li>
+                <li><a href="#about">Philosophy</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="container">
+            <h1>Acquiring the Core of<br>Digital Real Estate</h1>
+            <p>
+                In the global digital economy, a premium domain is the ultimate strategic asset. We identify, acquire, and manage category-defining digital identities.
+            </p>
+        </div>
+    </section>
+
+    <section id="assets">
+        <div class="container">
+            <h2>The Bedrock of Digital Equity</h2>
+            <p class="intro-text">
+                Domains are more than just addresses; they are <strong>non-fungible digital assets</strong>. Just like prime physical real estate, premium domains provide instant brand authority, lower customer acquisition costs, and significant capital appreciation.
+            </p>
+
+            <div class="grid">
+                <article class="card">
+                    <h3>Strategic Identity</h3>
+                    <p>We curate high-memorability domains that define entire industries, giving brands an immediate competitive advantage on a global scale.</p>
+                </article>
+
+                <article class="card">
+                    <h3>Absolute Scarcity</h3>
+                    <p>Digital land is finite. We focus on "short-tail" assets—one-of-a-kind identities that cannot be replicated or replaced.</p>
+                </article>
+
+                <article class="card">
+                    <h3>Future-Proof Value</h3>
+                    <p>As the internet evolves into the 3D and AI-driven era, the value of a trusted, concise digital entry point only continues to scale.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-dark" id="about">
+        <div class="container">
+            <div style="max-width: 800px; margin: auto; text-align: center;">
+                <h2>Our Investment Philosophy</h2>
+                <p style="font-size: 22px; color: #94a3b8; font-weight: 300;">
+                    At <strong>Name Brother</strong>, we view domains through the lens of institutional-grade investment. Our approach is defined by patience, market intelligence, and a deep understanding of how digital branding impacts enterprise value.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="cta-container">
+                <h2>Secure Your Digital Future</h2>
+                <p>For inquiries regarding our portfolio or strategic acquisition consulting.</p>
+                <a href="mailto:contact@namebrother.com" class="contact-link">contact@namebrother.com</a>
+                <div style="margin-top: 30px; font-size: 18px; opacity: 0.8;">
+                    Phone: +86 512 5782 8333
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <p>© 2026 Name Brother · Global Digital Asset Management</p>
+        <p style="margin-top: 15px; opacity: 0.5;">Premium Domain Names | Digital Identity Strategy | Capital Appreciation</p>
+    </div>
+</footer>
+
+</body>
+</html>
